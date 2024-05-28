@@ -1,0 +1,23 @@
+
+h2.title {
+    color: red;
+}
+
+p.subtitle {
+    color: green;
+}
+
+p.interpolation{
+    color:yellow;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+button.notClicked{
+    color: green;
+}
+
+button.clicked{
+    color: red;
+}
