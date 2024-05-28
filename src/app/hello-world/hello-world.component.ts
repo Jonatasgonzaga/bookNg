@@ -7,17 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HelloWorldComponent {
   // The code in this class drives the component's behavior.
-
+  
   isClicked = false;
   msg = 'You clicked the second button';
-
-
   message = 'Oi, mundo!';
+  buttonId = 2;
 
   fontColor = 'brown';
   sayHelloId = 1;
   canClick = true;
-  buttonId = 2;
+  
 
   sayMessage() {
     alert(this.message);
